@@ -2217,3 +2217,17 @@ a:hover.back-to-top {
     /* end of extra pages */
 }
 /* end of min-width width 1200px */
+
+
+
+/* Add this to styles.css */
+.fade-section {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-section.show {
+  opacity: 1;
+  transform: translateY(0);
+}
